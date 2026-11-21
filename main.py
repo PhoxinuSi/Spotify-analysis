@@ -18,7 +18,7 @@ MENU_OPTIONS = {
 }
 
 with st.sidebar:
-    st.write("**Выберете, что вы хотите сделать** ")
+    st.write("**Выберите, что вы хотите сделать** ")
     option = st.radio(
         "",
     options=list(MENU_OPTIONS.values()),
