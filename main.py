@@ -3,7 +3,6 @@ import pandas as pd
 import preparations as md
 import altair as alt
 import pickle
-from transformers import pipeline
 # prepare data
 data = pd.read_csv("dataset.csv")
 data = md.prepare_data(data)
